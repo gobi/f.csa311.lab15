@@ -25,4 +25,29 @@ public class StringUtilsTest {
     void testReverseUnicode() {
         assertEquals("ноМ", StringUtils.reverse("Мон"));
     }
+
+    @Test
+    void testIsBlankNull() {
+        assertTrue(StringUtils.isBlank(null));
+    }
+
+    @Test
+    void testIsBlankEmpty() {
+        assertTrue(StringUtils.isBlank(""));
+    }
+
+    @Test
+    void testIsBlankFalse() {
+        assertFalse(StringUtils.isBlank("hello"));
+    }
+
+    @Test
+    void testCapitalize() {
+        assertEquals("Hello", StringUtils.capitalize("hello"));
+    }
+
+    @Test
+    void testCapitalizeBlank() {
+        assertEquals("", StringUtils.capitalize(""));
+    }
 }
