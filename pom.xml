@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
 
     <name>Lab15 Starter</name>
-    <description>F.CSM311 Lab15 — Git Workflow + GitHub Actions CI/CD</description>
+    <description>F.CSM311 Lab15 ? Git Workflow + GitHub Actions CI/CD</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -38,9 +38,10 @@
             </plugin>
 
             <!--
-              TODO (Даалгавар 5): JaCoCo plugin-г нэмэх.
-              Lab15 заавар (Даалгавар 5)-ыг харна уу.
+              TODO (????????? 5): JaCoCo plugin-? ?????.
+              Lab15 ?????? (????????? 5)-?? ????? ??.
             -->
         </plugins>
     </build>
 </project>
+
