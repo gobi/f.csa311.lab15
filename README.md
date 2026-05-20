@@ -14,9 +14,10 @@ mvn -B clean verify
 src/
 ├── main/java/lab/
 │   ├── Calculator.java      — нэмэх, хасах, үржих, хуваах
-│   └── StringUtils.java     — capitalize, isBlank (reverse-г Даалгавар 2-т нэмнэ)
+│   └── StringUtils.java     — capitalize, isBlank, reverse
 └── test/java/lab/
-    └── CalculatorTest.java
+    ├── CalculatorTest.java
+    └── StringUtilsTest.java
 ```
 
 ## Lab15 даалгаврын товч жагсаалт
