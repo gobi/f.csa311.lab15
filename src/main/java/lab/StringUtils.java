@@ -3,7 +3,6 @@ package lab;
 /**
  * String-тэй ажиллах туслах утга.
  *
- * Lab15 — Даалгавар 2-т `reverse` функц өөрөө нэмэх болно.
  */
 public final class StringUtils {
 
@@ -28,5 +27,13 @@ public final class StringUtils {
         return Character.toUpperCase(s.charAt(0)) + s.substring(1);
     }
 
-    // TODO (Даалгавар 2): public static String reverse(String s) { ... }
+    /**
+     * Өгөгдсөн string-ийг урвуу дарааллаар буцаах.
+     */
+    public static String reverse(String s) {
+        if (s == null || s.length() <= 1) {
+            return s;
+        }
+        return new StringBuilder(s).reverse().toString();
+    }
 }
