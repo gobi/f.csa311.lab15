@@ -29,3 +29,4 @@ src/
 6. Peer review (хосоор)
 
 Дэлгэрэнгүйг `Lab15-Git-Workflow-and-CICD.md` файлд харна уу.
+// direct edit
